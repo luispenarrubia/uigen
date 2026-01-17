@@ -1,4 +1,5 @@
 import { TextEncoder, TextDecoder } from 'util';
+import '@testing-library/jest-dom/vitest';
 
 // Polyfill TextEncoder and TextDecoder for jsdom environment
 global.TextEncoder = TextEncoder;
